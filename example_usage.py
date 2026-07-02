@@ -1,10 +1,6 @@
-﻿import sys
-from client import Client
+from client import FAQMatcherClient
 def main():
-    if hasattr(sys.stdout, 'reconfigure'):
-        sys.stdout.reconfigure(encoding='utf-8')
-    c = Client()
-    res = c.process("Test Input")
-    print(res)
+    c = FAQMatcherClient()
+    print(c.find_match("how do I return my order?"))
 if __name__ == '__main__':
     main()

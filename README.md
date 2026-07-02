@@ -1,3 +1,3 @@
-﻿# genpark-faq-semantic-matcher-skill
+# genpark-faq-semantic-matcher-skill
 
-Ready to use SDK library for genpark-faq-semantic-matcher-skill.
+Production-ready agent skill for Consumer query FAQ matcher.
